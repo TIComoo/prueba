@@ -1,9 +1,12 @@
-package ticomo.app;
+package ticomo.app.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
+
+import org.junit.jupiter.api.Test;
+
 
 import ticomo.app.model.Restaurante;
 
