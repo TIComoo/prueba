@@ -58,12 +58,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-		<profile>
-		  <id>coverage</id>
-		  <build>
-		   <plugins>
-		    <plugin>
+			<plugin>
 		      <groupId>org.jacoco</groupId>
 		     <artifactId>jacoco-maven-plugin</artifactId>
 		      <version>0.8.7</version>
@@ -87,9 +82,8 @@
 			</execution>
 		      </executions>
 		    </plugin>
-		   </plugins>
-		  </build>
-		</profile>
+		</plugins>
+		 
 	</build>
 
 </project>
